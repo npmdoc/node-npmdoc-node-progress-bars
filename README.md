@@ -1,9 +1,14 @@
-# api documentation for  [node-progress-bars (v1.0.5)](https://github.com/bubkoo/ascii-progress)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-progress-bars.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-progress-bars) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-progress-bars.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-progress-bars)
+# npmdoc-node-progress-bars
+
+#### api documentation for  [node-progress-bars (v1.0.5)](https://github.com/bubkoo/ascii-progress)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-progress-bars.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-progress-bars) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-progress-bars.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-progress-bars)
+
 #### Ascii progress-bar(s) in the terminal.
 
-[![NPM](https://nodei.co/npm/node-progress-bars.png?downloads=true)](https://www.npmjs.com/package/node-progress-bars)
+[![NPM](https://nodei.co/npm/node-progress-bars.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-progress-bars)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-node-progress-bars_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-node-progress-bars/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "bubkoo",
-        "email": "bubkoo.wy@gmail.com"
+        "name": "bubkoo"
     },
     "bugs": {
         "url": "https://github.com/bubkoo/ascii-progress/issues"
@@ -53,13 +57,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "bubkoo",
-            "email": "bubkoo@163.com"
+            "name": "bubkoo"
         }
     ],
     "name": "node-progress-bars",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/bubkoo/ascii-progress.git"
@@ -70,16 +72,6 @@
     "version": "1.0.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module node-progress-bars](#apidoc.module.node-progress-bars)
-
-
-
-# <a name="apidoc.module.node-progress-bars"></a>[module node-progress-bars](#apidoc.module.node-progress-bars)
 
 
 
