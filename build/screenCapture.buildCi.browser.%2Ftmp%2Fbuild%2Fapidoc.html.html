@@ -54,12 +54,65 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.node-progress-bars">module node-progress-bars</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.node-progress-bars.node-progress-bars">
+            function <span class="apidocSignatureSpan"></span>node-progress-bars
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.node-progress-bars" id="apidoc.module.node-progress-bars">module node-progress-bars</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.node-progress-bars.node-progress-bars" id="apidoc.element.node-progress-bars.node-progress-bars">
+        function <span class="apidocSignatureSpan"></span>node-progress-bars
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ProgressBar(options) {
+
+  options = options || {};
+
+  this.cursor  = ansi(stream);
+  this.total   = options.total || 100;
+  this.current = options.current || 0;
+  this.width   = options.width || 60;
+
+  if (typeof this.width === 'string') {
+    if (endWith(this.width, '%')) {
+      this.width = parseFloat(this.width) / 100 % 1;
+    } else {
+      this.width = parseFloat(this.width);
+    }
+  }
+
+  this.tough = !!options.tough;
+  this.clean = !!options.clean;
+  this.chars = {
+    blank: options.blank || 'â€”',
+    filled: options.filled || 'â–‡'
+  };
+
+  // callback on completed
+  this.callback = options.callback;
+
+  this.setSchema(options.schema);
+  this.snoop();
+
+  instances.push(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
